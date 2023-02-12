@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melvin Simpson</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experiences.css">
+    <link rel="stylesheet" href="css/education.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e83f7bd922.js" crossorigin="anonymous"></script>
+    <script defer src="js/cv.js"></script>
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img
+                 height="50"
+                 width="50" 
+                 src="./Img/logo.jpg" 
+                 alt="icono"
+                >
+                <div>
+                    Melvin Simpson
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experiences">Experiencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Melvin Simpson</h1>
+                <p class="profile-details">
+                    Soy un desarrollador web con mas de 5 años de experiencia.
+                    He trabajado en diversos proyectos colaborativos y formado parte de distintos entornos profesionales.
+                    <br><br> Actualmente me encuentro enfocado en proyectos personales y de incursion propia afines a mis intereses.
+                </p>
+            </div>
+            <div class="profile-img-section">
+                <img class="profile-img" src="img/foto_perfil.jpg" alt="programador">
+            </div>
+        </section>
+    </div>
+
+    <section class="experiences" id="experiences">
+        <img src="Img/wave.svg" alt="division" class="wave">
+        <div class="experiences-body">
+            <h2 class="experiences-title">Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2019 - actualidad</div>
+                    <div class="experience-company"></div>
+                    <div class="experience-position">Desarrollador Web Autónomo</div>
+                </div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2018 - 2019</div>
+                    <div class="experience-company">Mercado Libre</div>
+                    <div class="experience-position">Desarrollador Full Stack Junior</div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2018</div>
+                    <div class="experience-company">Vivero "Las Amapolas</div>
+                    <div class="experience-position">Desarrollo de Web e-commerce</div>
+                </div>
+            </div>
+        </div>
+        <img src="Img/wave.svg" alt="division" class="wave wave_bottom">
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">css</li>
+                <li class="skills-skill">JavaScript</li>
+                <li class="skills-skill">Java</li>
+                <li class="skills-skill">Phytom</li>
+                <li class="skills-skill">Ruby</li>
+            </ul>
+        </section>
+    </div>
+
+    <section class="education" id="education">
+        <img src="Img/wave2.svg" alt="division" class="wave">
+        <div class="education-body">
+            <h2 class="education-title">Educación</h2>
+            <div class="education-grid">
+                <div class="formation">
+                    <div class="formation-date">2014 - 2019</div>
+                    <div class="formation-career">Licenciatura en Ciencias de la Computación</div>
+                    <div class="formation-university">Universidad de Buenos Aires</div>
+                </div>
+                <div class="formation">
+                    <div class="formation-date">2010 - 2013</div>
+                    <div class="formation-career">Tecnicatura Universitaria en Programación</div>
+                    <div class="formation-university">Universidad Tecnológica Nacional</div>
+                </div>
+            </div>
+        </div>
+        <img src="Img/wave2.svg" alt="division" class="wave wave2_bottom">
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="contact" id="contact">
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="contact-text">3886 E Pecan St, Buenos Aires, Argentina</p>
+                </div>
+                <div class="contact-details-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="contact-text">melvin.simpson@example.com </p>
+                </div>
+                <div class="contact-details-group">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="contact-text">(495) 579-8959</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-text">
+                        Deje su mensaje y le responderé a la brevedad
+                    </p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name"/>
+                </div>
+                <div class="contact-form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email"/>
+                </div>
+                <div class="contact-form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea required name="message" id="message" rows="6"></textarea>
+                </div>
+
+                <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+.education{
+    display: flex;
+    flex-direction: column;
+}
+
+.education-body{
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+    text-align: center;
+}
+
+.wave2{
+    width: 100%;
+    position: relative;
+    top: 2px;
+}
+
+.wave2_bottom{
+    transform: scaleY(-1);
+    top: -2px;
+}
+
+.education-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+}
+
+.formation-date{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.formation-career{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.formation-university{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.formation{
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 950px){
+
+    .education-title{
+        font-size: 50px;
+        margin: 35px 0;
+    }
+    
+    .formation-date{
+        font-size: 40px;
+    }
+    
+    .formation-career{
+        font-size: 25px;
+    }
+    
+    .formation-university{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .formation{
+        padding: 25px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
